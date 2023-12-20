@@ -149,6 +149,9 @@ astropy_header = "true"
 text_file_format = "rst"
 addopts = "-p no:warnings"
 timeout = 1000
+env = [
+    "QT_QPA_PLATFORM = offscreen"
+]
 
 [tool.coverage.run]
 source = ["sofia_redux",]
